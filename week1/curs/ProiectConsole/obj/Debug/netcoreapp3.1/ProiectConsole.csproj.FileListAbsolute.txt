@@ -1,0 +1,11 @@
+D:\Wantsome\week1\curs\ProiectConsole\bin\Debug\netcoreapp3.1\ProiectConsole.exe
+D:\Wantsome\week1\curs\ProiectConsole\bin\Debug\netcoreapp3.1\ProiectConsole.deps.json
+D:\Wantsome\week1\curs\ProiectConsole\bin\Debug\netcoreapp3.1\ProiectConsole.runtimeconfig.json
+D:\Wantsome\week1\curs\ProiectConsole\bin\Debug\netcoreapp3.1\ProiectConsole.runtimeconfig.dev.json
+D:\Wantsome\week1\curs\ProiectConsole\bin\Debug\netcoreapp3.1\ProiectConsole.dll
+D:\Wantsome\week1\curs\ProiectConsole\bin\Debug\netcoreapp3.1\ProiectConsole.pdb
+D:\Wantsome\week1\curs\ProiectConsole\obj\Debug\netcoreapp3.1\ProiectConsole.csprojAssemblyReference.cache
+D:\Wantsome\week1\curs\ProiectConsole\obj\Debug\netcoreapp3.1\ProiectConsole.AssemblyInfoInputs.cache
+D:\Wantsome\week1\curs\ProiectConsole\obj\Debug\netcoreapp3.1\ProiectConsole.AssemblyInfo.cs
+D:\Wantsome\week1\curs\ProiectConsole\obj\Debug\netcoreapp3.1\ProiectConsole.dll
+D:\Wantsome\week1\curs\ProiectConsole\obj\Debug\netcoreapp3.1\ProiectConsole.pdb
