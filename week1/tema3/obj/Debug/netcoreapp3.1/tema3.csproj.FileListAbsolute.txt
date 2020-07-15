@@ -1,0 +1,11 @@
+D:\Wantsome\Wantsome\week2\tema3\bin\Debug\netcoreapp3.1\tema3.exe
+D:\Wantsome\Wantsome\week2\tema3\bin\Debug\netcoreapp3.1\tema3.deps.json
+D:\Wantsome\Wantsome\week2\tema3\bin\Debug\netcoreapp3.1\tema3.runtimeconfig.json
+D:\Wantsome\Wantsome\week2\tema3\bin\Debug\netcoreapp3.1\tema3.runtimeconfig.dev.json
+D:\Wantsome\Wantsome\week2\tema3\bin\Debug\netcoreapp3.1\tema3.dll
+D:\Wantsome\Wantsome\week2\tema3\bin\Debug\netcoreapp3.1\tema3.pdb
+D:\Wantsome\Wantsome\week2\tema3\obj\Debug\netcoreapp3.1\tema3.csprojAssemblyReference.cache
+D:\Wantsome\Wantsome\week2\tema3\obj\Debug\netcoreapp3.1\tema3.AssemblyInfoInputs.cache
+D:\Wantsome\Wantsome\week2\tema3\obj\Debug\netcoreapp3.1\tema3.AssemblyInfo.cs
+D:\Wantsome\Wantsome\week2\tema3\obj\Debug\netcoreapp3.1\tema3.dll
+D:\Wantsome\Wantsome\week2\tema3\obj\Debug\netcoreapp3.1\tema3.pdb
