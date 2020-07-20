@@ -1,0 +1,11 @@
+D:\wantsome1\Wantsome\week2\UpdateTema4\bin\Debug\netcoreapp3.1\UpdateTema4.exe
+D:\wantsome1\Wantsome\week2\UpdateTema4\bin\Debug\netcoreapp3.1\UpdateTema4.deps.json
+D:\wantsome1\Wantsome\week2\UpdateTema4\bin\Debug\netcoreapp3.1\UpdateTema4.runtimeconfig.json
+D:\wantsome1\Wantsome\week2\UpdateTema4\bin\Debug\netcoreapp3.1\UpdateTema4.runtimeconfig.dev.json
+D:\wantsome1\Wantsome\week2\UpdateTema4\bin\Debug\netcoreapp3.1\UpdateTema4.dll
+D:\wantsome1\Wantsome\week2\UpdateTema4\bin\Debug\netcoreapp3.1\UpdateTema4.pdb
+D:\wantsome1\Wantsome\week2\UpdateTema4\obj\Debug\netcoreapp3.1\UpdateTema4.csprojAssemblyReference.cache
+D:\wantsome1\Wantsome\week2\UpdateTema4\obj\Debug\netcoreapp3.1\UpdateTema4.AssemblyInfoInputs.cache
+D:\wantsome1\Wantsome\week2\UpdateTema4\obj\Debug\netcoreapp3.1\UpdateTema4.AssemblyInfo.cs
+D:\wantsome1\Wantsome\week2\UpdateTema4\obj\Debug\netcoreapp3.1\UpdateTema4.dll
+D:\wantsome1\Wantsome\week2\UpdateTema4\obj\Debug\netcoreapp3.1\UpdateTema4.pdb
