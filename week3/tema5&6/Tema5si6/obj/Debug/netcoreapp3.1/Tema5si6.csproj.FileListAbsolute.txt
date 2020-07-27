@@ -1,0 +1,13 @@
+D:\Wantsome\Wantsome\week3\tema5&6\Tema5si6\bin\Debug\netcoreapp3.1\Tema5si6.exe
+D:\Wantsome\Wantsome\week3\tema5&6\Tema5si6\bin\Debug\netcoreapp3.1\Tema5si6.deps.json
+D:\Wantsome\Wantsome\week3\tema5&6\Tema5si6\bin\Debug\netcoreapp3.1\Tema5si6.runtimeconfig.json
+D:\Wantsome\Wantsome\week3\tema5&6\Tema5si6\bin\Debug\netcoreapp3.1\Tema5si6.runtimeconfig.dev.json
+D:\Wantsome\Wantsome\week3\tema5&6\Tema5si6\bin\Debug\netcoreapp3.1\Tema5si6.dll
+D:\Wantsome\Wantsome\week3\tema5&6\Tema5si6\bin\Debug\netcoreapp3.1\Tema5si6.pdb
+D:\Wantsome\Wantsome\week3\tema5&6\Tema5si6\obj\Debug\netcoreapp3.1\Tema5si6.csprojAssemblyReference.cache
+D:\Wantsome\Wantsome\week3\tema5&6\Tema5si6\obj\Debug\netcoreapp3.1\Tema5si6.AssemblyInfoInputs.cache
+D:\Wantsome\Wantsome\week3\tema5&6\Tema5si6\obj\Debug\netcoreapp3.1\Tema5si6.AssemblyInfo.cs
+D:\Wantsome\Wantsome\week3\tema5&6\Tema5si6\obj\Debug\netcoreapp3.1\Tema5si6.csproj.CoreCompileInputs.cache
+D:\Wantsome\Wantsome\week3\tema5&6\Tema5si6\obj\Debug\netcoreapp3.1\Tema5si6.dll
+D:\Wantsome\Wantsome\week3\tema5&6\Tema5si6\obj\Debug\netcoreapp3.1\Tema5si6.pdb
+D:\Wantsome\Wantsome\week3\tema5&6\Tema5si6\obj\Debug\netcoreapp3.1\Tema5si6.genruntimeconfig.cache
