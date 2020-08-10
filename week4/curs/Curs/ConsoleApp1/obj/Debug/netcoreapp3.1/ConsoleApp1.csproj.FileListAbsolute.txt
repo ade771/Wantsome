@@ -1,0 +1,13 @@
+D:\Wantsome\Wantsome\week4\curs\Curs\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+D:\Wantsome\Wantsome\week4\curs\Curs\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+D:\Wantsome\Wantsome\week4\curs\Curs\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+D:\Wantsome\Wantsome\week4\curs\Curs\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+D:\Wantsome\Wantsome\week4\curs\Curs\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\Wantsome\Wantsome\week4\curs\Curs\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\Wantsome\Wantsome\week4\curs\Curs\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+D:\Wantsome\Wantsome\week4\curs\Curs\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+D:\Wantsome\Wantsome\week4\curs\Curs\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+D:\Wantsome\Wantsome\week4\curs\Curs\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Wantsome\Wantsome\week4\curs\Curs\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\Wantsome\Wantsome\week4\curs\Curs\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\Wantsome\Wantsome\week4\curs\Curs\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache

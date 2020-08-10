@@ -1,0 +1,13 @@
+D:\Wantsome\Wantsome\week4\curs\Curs\bin\Debug\netcoreapp3.1\Curs.exe
+D:\Wantsome\Wantsome\week4\curs\Curs\bin\Debug\netcoreapp3.1\Curs.deps.json
+D:\Wantsome\Wantsome\week4\curs\Curs\bin\Debug\netcoreapp3.1\Curs.runtimeconfig.json
+D:\Wantsome\Wantsome\week4\curs\Curs\bin\Debug\netcoreapp3.1\Curs.runtimeconfig.dev.json
+D:\Wantsome\Wantsome\week4\curs\Curs\bin\Debug\netcoreapp3.1\Curs.dll
+D:\Wantsome\Wantsome\week4\curs\Curs\bin\Debug\netcoreapp3.1\Curs.pdb
+D:\Wantsome\Wantsome\week4\curs\Curs\obj\Debug\netcoreapp3.1\Curs.csprojAssemblyReference.cache
+D:\Wantsome\Wantsome\week4\curs\Curs\obj\Debug\netcoreapp3.1\Curs.AssemblyInfoInputs.cache
+D:\Wantsome\Wantsome\week4\curs\Curs\obj\Debug\netcoreapp3.1\Curs.AssemblyInfo.cs
+D:\Wantsome\Wantsome\week4\curs\Curs\obj\Debug\netcoreapp3.1\Curs.csproj.CoreCompileInputs.cache
+D:\Wantsome\Wantsome\week4\curs\Curs\obj\Debug\netcoreapp3.1\Curs.dll
+D:\Wantsome\Wantsome\week4\curs\Curs\obj\Debug\netcoreapp3.1\Curs.pdb
+D:\Wantsome\Wantsome\week4\curs\Curs\obj\Debug\netcoreapp3.1\Curs.genruntimeconfig.cache
