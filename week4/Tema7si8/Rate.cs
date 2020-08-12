@@ -5,17 +5,17 @@
 {
     public class Rate
     {
-        public int _amount;
-        public string _currency;
-        public Rate(int amount, string currency)
+        public double amount;
+        public string currency;
+        public Rate(double amount, string currency)
         {
-            this._amount = amount;
-            this._currency = currency;
+            this.amount = amount;
+            this.currency = currency;
         }
 
         public void Print()
         {
-            System.Console.WriteLine($"The amount is {_amount}, and the currency : {_currency}");
+            System.Console.WriteLine($"The amount is {amount}, and the currency : {currency}");
         }
 
     }

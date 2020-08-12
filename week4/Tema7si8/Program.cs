@@ -9,14 +9,14 @@ namespace Tema7si8
     class Program
     {
         static List<Hotel> hotels = new List<Hotel>();
-        static Hotel hotel;
 
         static void Main(string[] args)
         {
             hotels = new List<Hotel>();
             AddHotel();
 
-            int myAmount = 1006;
+            Console.WriteLine("Enter your amount:");
+            int myAmount = int.Parse(Console.ReadLine());
 
             FindRoom(myAmount);
             DeleteHotel();
@@ -25,34 +25,61 @@ namespace Tema7si8
         public static void AddHotel()
         {
             var rate1 = new Rate(1028,"lei");
-            var room1 = new Room("1", rate1, 2, 3);
+            var room1 = new Room("room1", rate1, 2, 3);
 
             var rate2 = new Rate(1000, "lei");
-            var room2 = new Room("2", rate2, 2, 1);
+            var room2 = new Room("room2", rate2, 2, 1);
 
-            hotel = new Hotel("International", "Iasi");
-            hotel._rooms.Add(room1);
-            hotel._rooms.Add(room2);
+            var rate3 = new Rate(900, "lei");
+            var room3 = new Room("room3", rate3, 2, 1);
 
-            hotels.Add(hotel);
+            var rate4 = new Rate(3000, "lei");
+            var room4 = new Room("room4", rate4, 2, 1);
+
+            var hotel1 = new Hotel("International", "Iasi");
+            var hotel2 = new Hotel("Ansablu", "Iasi");
+
+            hotel1.rooms.Add(room1);
+            hotel1.rooms.Add(room2);
+
+            hotel2.rooms.Add(room3);
+            hotel2.rooms.Add(room4);
+
+            hotels.Add(hotel1);
+            hotels.Add(hotel2);
+
         }
 
         public static void DeleteHotel()
         {
-            Console.WriteLine("Enter index of hotel you want to delete: ");
-            int index = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the name of hotel you want to delete ");
+           string nameOfhotel = Console.ReadLine();
+            for (int i = 0; i < hotels.Count; i++)
+            {
 
-            hotels.RemoveAt(index);
+                if (nameOfhotel == hotels[i].name)
+                {
+                    hotels.RemoveAt(i);
+                    
+                }
+
+            }
+
+            
         }
         public static void FindRoom(int amount)
         {
-            for (int i = 0; i < hotel._rooms.Count; i++)
+            for (int i = 0; i < hotels.Count; i++)
             {
-                if (hotel._rooms[i]._rate._amount < amount)
+                for (int j = 0; j < hotels[i].rooms.Count; j++)
                 {
-                    Console.WriteLine("Room :" + hotel._rooms[i]._name);
+                    if (hotels[i].rooms[j].rate.amount < amount)
+                    {
+                        Console.WriteLine("Hotel: " + hotels[i].name + ", room: "  + hotels[i].rooms[j].name + " " + hotels[i].rooms[j].rate.amount);
+                    }
                 }
             }
+
         }
     }
 }
