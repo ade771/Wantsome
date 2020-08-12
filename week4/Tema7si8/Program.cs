@@ -57,7 +57,7 @@ namespace Tema7si8
             for (int i = 0; i < hotels.Count; i++)
             {
 
-                if (nameOfhotel == hotels[i].name)
+                if (nameOfhotel == hotels[i].Name)
                 {
                     hotels.RemoveAt(i);
                     
@@ -73,9 +73,9 @@ namespace Tema7si8
             {
                 for (int j = 0; j < hotels[i].rooms.Count; j++)
                 {
-                    if (hotels[i].rooms[j].rate.amount < amount)
+                    if (hotels[i].rooms[j].Rate.amount < amount)
                     {
-                        Console.WriteLine("Hotel: " + hotels[i].name + ", room: "  + hotels[i].rooms[j].name + " " + hotels[i].rooms[j].rate.amount);
+                        Console.WriteLine("Hotel: " + hotels[i].Name + ", room: "  + hotels[i].rooms[j].Name + " " + hotels[i].rooms[j].Rate.amount);
                     }
                 }
             }

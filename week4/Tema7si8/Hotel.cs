@@ -7,30 +7,30 @@ namespace Tema7si8
 {
     public class Hotel
     {
-        public string name;
-        public string city;
+        public string Name { get; set; }
+        public string City { get; set; }
         public List<Room>rooms;
 
         public Hotel(string name, string city)
         {
-            this.name = name;
-            this.city = city;
+            this.Name = name;
+            this.City = city;
             this.rooms = new List<Room>();
         }
 
-        public int GetPriceForNumberOfRooms(int numberOfRooms)
+        public int GetPriceForNumberOfRooms(int numberOfRooms) 
         {
             int price = 0;
             for (int i = 0; i < numberOfRooms; i++)
             {
-                price += (int)rooms[i].rate.amount;
+                price += (int)rooms[i].Rate.amount;
             }
 
             return price;
         }
         public void Print()
         {
-            System.Console.WriteLine($" Hotel name : {this.name}, city : {this.city}");
+            System.Console.WriteLine($" Hotel name : {this.Name}, city : {this.City}");
         }
     }
 }

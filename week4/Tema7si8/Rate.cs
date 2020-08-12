@@ -5,8 +5,8 @@
 {
     public class Rate
     {
-        public double amount;
-        public string currency;
+        public double amount { get; set; }
+        public string currency { get; set; }
         public Rate(double amount, string currency)
         {
             this.amount = amount;

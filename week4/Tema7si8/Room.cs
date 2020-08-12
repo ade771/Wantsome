@@ -5,26 +5,26 @@
 {
     public class Room
     {
-        public string name;
-        public Rate rate;
-        public int adults;
-        public int children;
+        public string Name { get; set; }
+        public Rate Rate { get; set; }
+        public int Adults { get; set; }
+        public int Children { get; set; }
 
         public Room(string name, Rate rate, int adults, int children)
         {
-            this.name = name;
-            this.rate = rate;
-            this.adults = adults;
-            this.children = children;
+            this.Name = name;
+            this.Rate = rate;
+            this.Adults = adults;
+            this.Children = children;
         }
 
         public int GetPriceForDays(int numberOfDays)
         {
-            return (int)(rate.amount * numberOfDays);
+            return (int)(Rate.amount * numberOfDays);
         }
         public void PrintRoom()
         {
-            System.Console.WriteLine($" Name : {this.name}, rate : {this.rate}, adults : {this.adults}, children : {this.children}");
+            System.Console.WriteLine($" Name : {this.Name}, rate : {this.Rate}, adults : {this.Adults}, children : {this.Children}");
         }
 
     }
