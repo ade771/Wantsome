@@ -1,0 +1,13 @@
+D:\Wantsome\Wantsome\week4\Tema7si8\Tema(Pizza)\bin\Debug\netcoreapp3.1\Tema(Pizza).exe
+D:\Wantsome\Wantsome\week4\Tema7si8\Tema(Pizza)\bin\Debug\netcoreapp3.1\Tema(Pizza).deps.json
+D:\Wantsome\Wantsome\week4\Tema7si8\Tema(Pizza)\bin\Debug\netcoreapp3.1\Tema(Pizza).runtimeconfig.json
+D:\Wantsome\Wantsome\week4\Tema7si8\Tema(Pizza)\bin\Debug\netcoreapp3.1\Tema(Pizza).runtimeconfig.dev.json
+D:\Wantsome\Wantsome\week4\Tema7si8\Tema(Pizza)\bin\Debug\netcoreapp3.1\Tema(Pizza).dll
+D:\Wantsome\Wantsome\week4\Tema7si8\Tema(Pizza)\bin\Debug\netcoreapp3.1\Tema(Pizza).pdb
+D:\Wantsome\Wantsome\week4\Tema7si8\Tema(Pizza)\obj\Debug\netcoreapp3.1\Tema(Pizza).AssemblyInfoInputs.cache
+D:\Wantsome\Wantsome\week4\Tema7si8\Tema(Pizza)\obj\Debug\netcoreapp3.1\Tema(Pizza).AssemblyInfo.cs
+D:\Wantsome\Wantsome\week4\Tema7si8\Tema(Pizza)\obj\Debug\netcoreapp3.1\Tema(Pizza).csproj.CoreCompileInputs.cache
+D:\Wantsome\Wantsome\week4\Tema7si8\Tema(Pizza)\obj\Debug\netcoreapp3.1\Tema(Pizza).dll
+D:\Wantsome\Wantsome\week4\Tema7si8\Tema(Pizza)\obj\Debug\netcoreapp3.1\Tema(Pizza).pdb
+D:\Wantsome\Wantsome\week4\Tema7si8\Tema(Pizza)\obj\Debug\netcoreapp3.1\Tema(Pizza).genruntimeconfig.cache
+D:\Wantsome\Wantsome\week4\Tema7si8\Tema(Pizza)\obj\Debug\netcoreapp3.1\Tema(Pizza).csprojAssemblyReference.cache
