@@ -1,0 +1,13 @@
+D:\Wantsome\Wantsome\week5\Tema9si10\SchoolClasses\bin\Debug\netcoreapp3.1\SchoolClasses.exe
+D:\Wantsome\Wantsome\week5\Tema9si10\SchoolClasses\bin\Debug\netcoreapp3.1\SchoolClasses.deps.json
+D:\Wantsome\Wantsome\week5\Tema9si10\SchoolClasses\bin\Debug\netcoreapp3.1\SchoolClasses.runtimeconfig.json
+D:\Wantsome\Wantsome\week5\Tema9si10\SchoolClasses\bin\Debug\netcoreapp3.1\SchoolClasses.runtimeconfig.dev.json
+D:\Wantsome\Wantsome\week5\Tema9si10\SchoolClasses\bin\Debug\netcoreapp3.1\SchoolClasses.dll
+D:\Wantsome\Wantsome\week5\Tema9si10\SchoolClasses\bin\Debug\netcoreapp3.1\SchoolClasses.pdb
+D:\Wantsome\Wantsome\week5\Tema9si10\SchoolClasses\obj\Debug\netcoreapp3.1\SchoolClasses.csprojAssemblyReference.cache
+D:\Wantsome\Wantsome\week5\Tema9si10\SchoolClasses\obj\Debug\netcoreapp3.1\SchoolClasses.AssemblyInfoInputs.cache
+D:\Wantsome\Wantsome\week5\Tema9si10\SchoolClasses\obj\Debug\netcoreapp3.1\SchoolClasses.AssemblyInfo.cs
+D:\Wantsome\Wantsome\week5\Tema9si10\SchoolClasses\obj\Debug\netcoreapp3.1\SchoolClasses.csproj.CoreCompileInputs.cache
+D:\Wantsome\Wantsome\week5\Tema9si10\SchoolClasses\obj\Debug\netcoreapp3.1\SchoolClasses.dll
+D:\Wantsome\Wantsome\week5\Tema9si10\SchoolClasses\obj\Debug\netcoreapp3.1\SchoolClasses.pdb
+D:\Wantsome\Wantsome\week5\Tema9si10\SchoolClasses\obj\Debug\netcoreapp3.1\SchoolClasses.genruntimeconfig.cache
