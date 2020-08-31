@@ -1,0 +1,13 @@
+D:\Wantsome\Wantsome\week5\Tema9si10\Animal hierarchy\bin\Debug\netcoreapp3.1\Animal hierarchy.exe
+D:\Wantsome\Wantsome\week5\Tema9si10\Animal hierarchy\bin\Debug\netcoreapp3.1\Animal hierarchy.deps.json
+D:\Wantsome\Wantsome\week5\Tema9si10\Animal hierarchy\bin\Debug\netcoreapp3.1\Animal hierarchy.runtimeconfig.json
+D:\Wantsome\Wantsome\week5\Tema9si10\Animal hierarchy\bin\Debug\netcoreapp3.1\Animal hierarchy.runtimeconfig.dev.json
+D:\Wantsome\Wantsome\week5\Tema9si10\Animal hierarchy\bin\Debug\netcoreapp3.1\Animal hierarchy.dll
+D:\Wantsome\Wantsome\week5\Tema9si10\Animal hierarchy\bin\Debug\netcoreapp3.1\Animal hierarchy.pdb
+D:\Wantsome\Wantsome\week5\Tema9si10\Animal hierarchy\obj\Debug\netcoreapp3.1\Animal hierarchy.csprojAssemblyReference.cache
+D:\Wantsome\Wantsome\week5\Tema9si10\Animal hierarchy\obj\Debug\netcoreapp3.1\Animal hierarchy.AssemblyInfoInputs.cache
+D:\Wantsome\Wantsome\week5\Tema9si10\Animal hierarchy\obj\Debug\netcoreapp3.1\Animal hierarchy.AssemblyInfo.cs
+D:\Wantsome\Wantsome\week5\Tema9si10\Animal hierarchy\obj\Debug\netcoreapp3.1\Animal hierarchy.csproj.CoreCompileInputs.cache
+D:\Wantsome\Wantsome\week5\Tema9si10\Animal hierarchy\obj\Debug\netcoreapp3.1\Animal hierarchy.dll
+D:\Wantsome\Wantsome\week5\Tema9si10\Animal hierarchy\obj\Debug\netcoreapp3.1\Animal hierarchy.pdb
+D:\Wantsome\Wantsome\week5\Tema9si10\Animal hierarchy\obj\Debug\netcoreapp3.1\Animal hierarchy.genruntimeconfig.cache
