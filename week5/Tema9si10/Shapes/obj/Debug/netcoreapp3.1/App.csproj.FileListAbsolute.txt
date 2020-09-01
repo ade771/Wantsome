@@ -1,0 +1,13 @@
+D:\Wantsome\Wantsome\week5\App\obj\Debug\netcoreapp3.1\App.csprojAssemblyReference.cache
+D:\Wantsome\Wantsome\week5\App\obj\Debug\netcoreapp3.1\App.AssemblyInfoInputs.cache
+D:\Wantsome\Wantsome\week5\App\obj\Debug\netcoreapp3.1\App.AssemblyInfo.cs
+D:\Wantsome\Wantsome\week5\App\obj\Debug\netcoreapp3.1\App.csproj.CoreCompileInputs.cache
+D:\Wantsome\Wantsome\week5\App\bin\Debug\netcoreapp3.1\App.exe
+D:\Wantsome\Wantsome\week5\App\bin\Debug\netcoreapp3.1\App.deps.json
+D:\Wantsome\Wantsome\week5\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.json
+D:\Wantsome\Wantsome\week5\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.dev.json
+D:\Wantsome\Wantsome\week5\App\bin\Debug\netcoreapp3.1\App.dll
+D:\Wantsome\Wantsome\week5\App\bin\Debug\netcoreapp3.1\App.pdb
+D:\Wantsome\Wantsome\week5\App\obj\Debug\netcoreapp3.1\App.dll
+D:\Wantsome\Wantsome\week5\App\obj\Debug\netcoreapp3.1\App.pdb
+D:\Wantsome\Wantsome\week5\App\obj\Debug\netcoreapp3.1\App.genruntimeconfig.cache
