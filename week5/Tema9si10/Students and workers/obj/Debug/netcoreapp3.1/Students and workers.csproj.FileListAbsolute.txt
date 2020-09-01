@@ -1,0 +1,13 @@
+D:\Wantsome\Wantsome\week5\Tema9si10\Students and workers\bin\Debug\netcoreapp3.1\Students and workers.exe
+D:\Wantsome\Wantsome\week5\Tema9si10\Students and workers\bin\Debug\netcoreapp3.1\Students and workers.deps.json
+D:\Wantsome\Wantsome\week5\Tema9si10\Students and workers\bin\Debug\netcoreapp3.1\Students and workers.runtimeconfig.json
+D:\Wantsome\Wantsome\week5\Tema9si10\Students and workers\bin\Debug\netcoreapp3.1\Students and workers.runtimeconfig.dev.json
+D:\Wantsome\Wantsome\week5\Tema9si10\Students and workers\bin\Debug\netcoreapp3.1\Students and workers.dll
+D:\Wantsome\Wantsome\week5\Tema9si10\Students and workers\bin\Debug\netcoreapp3.1\Students and workers.pdb
+D:\Wantsome\Wantsome\week5\Tema9si10\Students and workers\obj\Debug\netcoreapp3.1\Students and workers.csprojAssemblyReference.cache
+D:\Wantsome\Wantsome\week5\Tema9si10\Students and workers\obj\Debug\netcoreapp3.1\Students and workers.AssemblyInfoInputs.cache
+D:\Wantsome\Wantsome\week5\Tema9si10\Students and workers\obj\Debug\netcoreapp3.1\Students and workers.AssemblyInfo.cs
+D:\Wantsome\Wantsome\week5\Tema9si10\Students and workers\obj\Debug\netcoreapp3.1\Students and workers.csproj.CoreCompileInputs.cache
+D:\Wantsome\Wantsome\week5\Tema9si10\Students and workers\obj\Debug\netcoreapp3.1\Students and workers.dll
+D:\Wantsome\Wantsome\week5\Tema9si10\Students and workers\obj\Debug\netcoreapp3.1\Students and workers.pdb
+D:\Wantsome\Wantsome\week5\Tema9si10\Students and workers\obj\Debug\netcoreapp3.1\Students and workers.genruntimeconfig.cache
