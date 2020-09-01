@@ -1,0 +1,6 @@
+﻿namespace StoreExercice
+{
+     interface ICustomer
+    {
+    }
+}

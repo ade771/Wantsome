@@ -1,0 +1,13 @@
+D:\Wantsome\Wantsome\week6\Curs\bin\Debug\netcoreapp3.1\StoreExercice.exe
+D:\Wantsome\Wantsome\week6\Curs\bin\Debug\netcoreapp3.1\StoreExercice.deps.json
+D:\Wantsome\Wantsome\week6\Curs\bin\Debug\netcoreapp3.1\StoreExercice.runtimeconfig.json
+D:\Wantsome\Wantsome\week6\Curs\bin\Debug\netcoreapp3.1\StoreExercice.runtimeconfig.dev.json
+D:\Wantsome\Wantsome\week6\Curs\bin\Debug\netcoreapp3.1\StoreExercice.dll
+D:\Wantsome\Wantsome\week6\Curs\bin\Debug\netcoreapp3.1\StoreExercice.pdb
+D:\Wantsome\Wantsome\week6\Curs\obj\Debug\netcoreapp3.1\StoreExercice.csprojAssemblyReference.cache
+D:\Wantsome\Wantsome\week6\Curs\obj\Debug\netcoreapp3.1\StoreExercice.AssemblyInfoInputs.cache
+D:\Wantsome\Wantsome\week6\Curs\obj\Debug\netcoreapp3.1\StoreExercice.AssemblyInfo.cs
+D:\Wantsome\Wantsome\week6\Curs\obj\Debug\netcoreapp3.1\StoreExercice.csproj.CoreCompileInputs.cache
+D:\Wantsome\Wantsome\week6\Curs\obj\Debug\netcoreapp3.1\StoreExercice.dll
+D:\Wantsome\Wantsome\week6\Curs\obj\Debug\netcoreapp3.1\StoreExercice.pdb
+D:\Wantsome\Wantsome\week6\Curs\obj\Debug\netcoreapp3.1\StoreExercice.genruntimeconfig.cache
