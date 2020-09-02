@@ -1,0 +1,13 @@
+D:\Wantsome\Wantsome\week6\Ex5\bin\Debug\netcoreapp3.1\Ex5.exe
+D:\Wantsome\Wantsome\week6\Ex5\bin\Debug\netcoreapp3.1\Ex5.deps.json
+D:\Wantsome\Wantsome\week6\Ex5\bin\Debug\netcoreapp3.1\Ex5.runtimeconfig.json
+D:\Wantsome\Wantsome\week6\Ex5\bin\Debug\netcoreapp3.1\Ex5.runtimeconfig.dev.json
+D:\Wantsome\Wantsome\week6\Ex5\bin\Debug\netcoreapp3.1\Ex5.dll
+D:\Wantsome\Wantsome\week6\Ex5\bin\Debug\netcoreapp3.1\Ex5.pdb
+D:\Wantsome\Wantsome\week6\Ex5\obj\Debug\netcoreapp3.1\Ex5.csprojAssemblyReference.cache
+D:\Wantsome\Wantsome\week6\Ex5\obj\Debug\netcoreapp3.1\Ex5.AssemblyInfoInputs.cache
+D:\Wantsome\Wantsome\week6\Ex5\obj\Debug\netcoreapp3.1\Ex5.AssemblyInfo.cs
+D:\Wantsome\Wantsome\week6\Ex5\obj\Debug\netcoreapp3.1\Ex5.csproj.CoreCompileInputs.cache
+D:\Wantsome\Wantsome\week6\Ex5\obj\Debug\netcoreapp3.1\Ex5.dll
+D:\Wantsome\Wantsome\week6\Ex5\obj\Debug\netcoreapp3.1\Ex5.pdb
+D:\Wantsome\Wantsome\week6\Ex5\obj\Debug\netcoreapp3.1\Ex5.genruntimeconfig.cache
