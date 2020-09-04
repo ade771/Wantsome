@@ -1,0 +1,13 @@
+D:\Wantsome\Wantsome\week7\Tema1\Action\bin\Debug\netcoreapp3.1\Action.exe
+D:\Wantsome\Wantsome\week7\Tema1\Action\bin\Debug\netcoreapp3.1\Action.deps.json
+D:\Wantsome\Wantsome\week7\Tema1\Action\bin\Debug\netcoreapp3.1\Action.runtimeconfig.json
+D:\Wantsome\Wantsome\week7\Tema1\Action\bin\Debug\netcoreapp3.1\Action.runtimeconfig.dev.json
+D:\Wantsome\Wantsome\week7\Tema1\Action\bin\Debug\netcoreapp3.1\Action.dll
+D:\Wantsome\Wantsome\week7\Tema1\Action\bin\Debug\netcoreapp3.1\Action.pdb
+D:\Wantsome\Wantsome\week7\Tema1\Action\obj\Debug\netcoreapp3.1\Action.csprojAssemblyReference.cache
+D:\Wantsome\Wantsome\week7\Tema1\Action\obj\Debug\netcoreapp3.1\Action.AssemblyInfoInputs.cache
+D:\Wantsome\Wantsome\week7\Tema1\Action\obj\Debug\netcoreapp3.1\Action.AssemblyInfo.cs
+D:\Wantsome\Wantsome\week7\Tema1\Action\obj\Debug\netcoreapp3.1\Action.csproj.CoreCompileInputs.cache
+D:\Wantsome\Wantsome\week7\Tema1\Action\obj\Debug\netcoreapp3.1\Action.dll
+D:\Wantsome\Wantsome\week7\Tema1\Action\obj\Debug\netcoreapp3.1\Action.pdb
+D:\Wantsome\Wantsome\week7\Tema1\Action\obj\Debug\netcoreapp3.1\Action.genruntimeconfig.cache

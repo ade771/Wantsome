@@ -1,0 +1,13 @@
+D:\Wantsome\Wantsome\week7\Tema1\LINQ\bin\Debug\netcoreapp3.1\LINQ.exe
+D:\Wantsome\Wantsome\week7\Tema1\LINQ\bin\Debug\netcoreapp3.1\LINQ.deps.json
+D:\Wantsome\Wantsome\week7\Tema1\LINQ\bin\Debug\netcoreapp3.1\LINQ.runtimeconfig.json
+D:\Wantsome\Wantsome\week7\Tema1\LINQ\bin\Debug\netcoreapp3.1\LINQ.runtimeconfig.dev.json
+D:\Wantsome\Wantsome\week7\Tema1\LINQ\bin\Debug\netcoreapp3.1\LINQ.dll
+D:\Wantsome\Wantsome\week7\Tema1\LINQ\bin\Debug\netcoreapp3.1\LINQ.pdb
+D:\Wantsome\Wantsome\week7\Tema1\LINQ\obj\Debug\netcoreapp3.1\LINQ.AssemblyInfoInputs.cache
+D:\Wantsome\Wantsome\week7\Tema1\LINQ\obj\Debug\netcoreapp3.1\LINQ.AssemblyInfo.cs
+D:\Wantsome\Wantsome\week7\Tema1\LINQ\obj\Debug\netcoreapp3.1\LINQ.csproj.CoreCompileInputs.cache
+D:\Wantsome\Wantsome\week7\Tema1\LINQ\obj\Debug\netcoreapp3.1\LINQ.dll
+D:\Wantsome\Wantsome\week7\Tema1\LINQ\obj\Debug\netcoreapp3.1\LINQ.pdb
+D:\Wantsome\Wantsome\week7\Tema1\LINQ\obj\Debug\netcoreapp3.1\LINQ.genruntimeconfig.cache
+D:\Wantsome\Wantsome\week7\Tema1\LINQ\obj\Debug\netcoreapp3.1\LINQ.csprojAssemblyReference.cache

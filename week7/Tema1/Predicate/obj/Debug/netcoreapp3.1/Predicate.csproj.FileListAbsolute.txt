@@ -1,0 +1,13 @@
+D:\Wantsome\Wantsome\week7\Tema1\Predicate\bin\Debug\netcoreapp3.1\Predicate.exe
+D:\Wantsome\Wantsome\week7\Tema1\Predicate\bin\Debug\netcoreapp3.1\Predicate.deps.json
+D:\Wantsome\Wantsome\week7\Tema1\Predicate\bin\Debug\netcoreapp3.1\Predicate.runtimeconfig.json
+D:\Wantsome\Wantsome\week7\Tema1\Predicate\bin\Debug\netcoreapp3.1\Predicate.runtimeconfig.dev.json
+D:\Wantsome\Wantsome\week7\Tema1\Predicate\bin\Debug\netcoreapp3.1\Predicate.dll
+D:\Wantsome\Wantsome\week7\Tema1\Predicate\bin\Debug\netcoreapp3.1\Predicate.pdb
+D:\Wantsome\Wantsome\week7\Tema1\Predicate\obj\Debug\netcoreapp3.1\Predicate.csprojAssemblyReference.cache
+D:\Wantsome\Wantsome\week7\Tema1\Predicate\obj\Debug\netcoreapp3.1\Predicate.AssemblyInfoInputs.cache
+D:\Wantsome\Wantsome\week7\Tema1\Predicate\obj\Debug\netcoreapp3.1\Predicate.AssemblyInfo.cs
+D:\Wantsome\Wantsome\week7\Tema1\Predicate\obj\Debug\netcoreapp3.1\Predicate.csproj.CoreCompileInputs.cache
+D:\Wantsome\Wantsome\week7\Tema1\Predicate\obj\Debug\netcoreapp3.1\Predicate.dll
+D:\Wantsome\Wantsome\week7\Tema1\Predicate\obj\Debug\netcoreapp3.1\Predicate.pdb
+D:\Wantsome\Wantsome\week7\Tema1\Predicate\obj\Debug\netcoreapp3.1\Predicate.genruntimeconfig.cache

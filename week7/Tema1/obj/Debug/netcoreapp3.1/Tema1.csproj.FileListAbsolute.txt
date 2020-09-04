@@ -1,0 +1,13 @@
+D:\Wantsome\Wantsome\week7\Tema1\bin\Debug\netcoreapp3.1\Tema1.exe
+D:\Wantsome\Wantsome\week7\Tema1\bin\Debug\netcoreapp3.1\Tema1.deps.json
+D:\Wantsome\Wantsome\week7\Tema1\bin\Debug\netcoreapp3.1\Tema1.runtimeconfig.json
+D:\Wantsome\Wantsome\week7\Tema1\bin\Debug\netcoreapp3.1\Tema1.runtimeconfig.dev.json
+D:\Wantsome\Wantsome\week7\Tema1\bin\Debug\netcoreapp3.1\Tema1.dll
+D:\Wantsome\Wantsome\week7\Tema1\bin\Debug\netcoreapp3.1\Tema1.pdb
+D:\Wantsome\Wantsome\week7\Tema1\obj\Debug\netcoreapp3.1\Tema1.csprojAssemblyReference.cache
+D:\Wantsome\Wantsome\week7\Tema1\obj\Debug\netcoreapp3.1\Tema1.AssemblyInfoInputs.cache
+D:\Wantsome\Wantsome\week7\Tema1\obj\Debug\netcoreapp3.1\Tema1.AssemblyInfo.cs
+D:\Wantsome\Wantsome\week7\Tema1\obj\Debug\netcoreapp3.1\Tema1.csproj.CoreCompileInputs.cache
+D:\Wantsome\Wantsome\week7\Tema1\obj\Debug\netcoreapp3.1\Tema1.dll
+D:\Wantsome\Wantsome\week7\Tema1\obj\Debug\netcoreapp3.1\Tema1.pdb
+D:\Wantsome\Wantsome\week7\Tema1\obj\Debug\netcoreapp3.1\Tema1.genruntimeconfig.cache
