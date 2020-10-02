@@ -1,0 +1,12 @@
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.Repository\bin\Debug\netstandard2.0\CinemaApp.Repository.deps.json
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.Repository\bin\Debug\netstandard2.0\CinemaApp.Repository.dll
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.Repository\bin\Debug\netstandard2.0\CinemaApp.Repository.pdb
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.Repository\bin\Debug\netstandard2.0\CinemaApp.BL.dll
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.Repository\bin\Debug\netstandard2.0\CinemaApp.BL.pdb
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.Repository\obj\Debug\netstandard2.0\CinemaApp.Repository.csprojAssemblyReference.cache
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.Repository\obj\Debug\netstandard2.0\CinemaApp.Repository.AssemblyInfoInputs.cache
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.Repository\obj\Debug\netstandard2.0\CinemaApp.Repository.AssemblyInfo.cs
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.Repository\obj\Debug\netstandard2.0\CinemaApp.Repository.csproj.CoreCompileInputs.cache
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.Repository\obj\Debug\netstandard2.0\CinemaApp.Repository.csproj.CopyComplete
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.Repository\obj\Debug\netstandard2.0\CinemaApp.Repository.dll
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.Repository\obj\Debug\netstandard2.0\CinemaApp.Repository.pdb

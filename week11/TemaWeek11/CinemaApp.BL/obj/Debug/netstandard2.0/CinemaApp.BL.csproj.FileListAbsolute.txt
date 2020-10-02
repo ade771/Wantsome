@@ -1,0 +1,9 @@
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.BL\bin\Debug\netstandard2.0\CinemaApp.BL.deps.json
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.BL\bin\Debug\netstandard2.0\CinemaApp.BL.dll
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.BL\bin\Debug\netstandard2.0\CinemaApp.BL.pdb
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.BL\obj\Debug\netstandard2.0\CinemaApp.BL.csprojAssemblyReference.cache
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.BL\obj\Debug\netstandard2.0\CinemaApp.BL.AssemblyInfoInputs.cache
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.BL\obj\Debug\netstandard2.0\CinemaApp.BL.AssemblyInfo.cs
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.BL\obj\Debug\netstandard2.0\CinemaApp.BL.csproj.CoreCompileInputs.cache
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.BL\obj\Debug\netstandard2.0\CinemaApp.BL.dll
+D:\Wantsome\Wantsome\week11\TemaWeek11\CinemaApp.BL\obj\Debug\netstandard2.0\CinemaApp.BL.pdb

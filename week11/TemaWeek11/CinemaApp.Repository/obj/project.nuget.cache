@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "uC1qIiFOQOeyEFDiCm9rTp7BPRfQjjmhE/VnI2DY4nPk+TxfCCgK8Jzzzg5u9Q1cxUl8t9R5iiczolDfOxQUnw==",
+  "success": true,
+  "projectFilePath": "D:\\Wantsome\\Wantsome\\week11\\TemaWeek11\\CinemaApp.Repository\\CinemaApp.Repository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\manta\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\manta\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
