@@ -1,0 +1,13 @@
+D:\Wantsome\Wantsome\week10\Tema\bin\Release\netcoreapp3.1\Tema.exe
+D:\Wantsome\Wantsome\week10\Tema\bin\Release\netcoreapp3.1\Tema.deps.json
+D:\Wantsome\Wantsome\week10\Tema\bin\Release\netcoreapp3.1\Tema.runtimeconfig.json
+D:\Wantsome\Wantsome\week10\Tema\bin\Release\netcoreapp3.1\Tema.runtimeconfig.dev.json
+D:\Wantsome\Wantsome\week10\Tema\bin\Release\netcoreapp3.1\Tema.dll
+D:\Wantsome\Wantsome\week10\Tema\bin\Release\netcoreapp3.1\Tema.pdb
+D:\Wantsome\Wantsome\week10\Tema\obj\Release\netcoreapp3.1\Tema.csprojAssemblyReference.cache
+D:\Wantsome\Wantsome\week10\Tema\obj\Release\netcoreapp3.1\Tema.AssemblyInfoInputs.cache
+D:\Wantsome\Wantsome\week10\Tema\obj\Release\netcoreapp3.1\Tema.AssemblyInfo.cs
+D:\Wantsome\Wantsome\week10\Tema\obj\Release\netcoreapp3.1\Tema.csproj.CoreCompileInputs.cache
+D:\Wantsome\Wantsome\week10\Tema\obj\Release\netcoreapp3.1\Tema.dll
+D:\Wantsome\Wantsome\week10\Tema\obj\Release\netcoreapp3.1\Tema.pdb
+D:\Wantsome\Wantsome\week10\Tema\obj\Release\netcoreapp3.1\Tema.genruntimeconfig.cache
