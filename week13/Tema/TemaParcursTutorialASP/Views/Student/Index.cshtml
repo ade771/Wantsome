@@ -1,0 +1,41 @@
+﻿@model IEnumerable<TemaParcursTutorialASP.Models.Student>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.StudentName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Age)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var student in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => student.StudentName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => student.Age)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = student.StudentId },null) |
+                @Html.ActionLink("Details", "View", new { id = student.StudentId }, null) |
+                @Html.ActionLink("Delete", "Delete", new { id = student.StudentId })
+            </td>
+        </tr>
+    }
+
+</table>
