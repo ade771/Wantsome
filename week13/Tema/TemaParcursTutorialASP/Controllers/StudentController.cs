@@ -1,7 +1,6 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using TemaParcursTutorialASP.Models;
 
@@ -9,7 +8,7 @@ namespace TemaParcursTutorialASP.Controllers
 {
     public class StudentController : Controller
     {
-        Student student;
+       readonly Student student;
         public StudentController()
         {
             student = new Student();
@@ -20,7 +19,7 @@ namespace TemaParcursTutorialASP.Controllers
         {
 
             List<Student> students = student.GetAll();
-            
+
             return View(students);
         }
 
@@ -51,47 +50,36 @@ namespace TemaParcursTutorialASP.Controllers
             return View(student);
         }
 
-        [HttpDelete]
-        public ActionResult Delete()
+    
+        public ActionResult Delete(int id)
         {
-            if (ModelState.IsValid)
-            {
-                student.Delete(student);
+            var std = Student.studentList.Where(s => s.StudentId == id).FirstOrDefault();
 
-                return RedirectToAction("Index");
-            }
-
-            return View(student);
-        }
-        
-        [HttpGet]
-        public ActionResult Edit(int id)
-        {
-            var students = student.GetById(id);
-
-            return View(student);
+            return View(std);
         }
 
         [HttpPost]
-        public ActionResult EditStudent(Student student)
+        public ActionResult Delete(Student std)
         {
+            var student = Student.studentList.Where(s => s.StudentId == std.StudentId).FirstOrDefault();
+            Student.studentList.Remove(student);
+            return View();
+        }
+
+        public ActionResult Edit(int Id)
+        {
+            var std = Student.studentList.Where(s => s.StudentId == Id).FirstOrDefault();
+
+            return View(std);
+        }
+
+        [HttpPost]
+        public ActionResult Edit(Student std)
+        {
+            var student = Student.studentList.Where(s => s.StudentId == std.StudentId).FirstOrDefault();
+            Student.studentList.Remove(student);
+            Student.studentList.Add(std);
             return RedirectToAction("Index");
         }
-
-        [HttpPost]
-        public ActionResult Edit(int id, Student student)
-        {
-            var existingStudent = student.GetById(id);
-
-            if (ModelState.IsValid)
-            {
-                existingStudent.StudentName = student.StudentName;
-                existingStudent.Age = student.Age;
-
-                return RedirectToAction("Index");
-            }
-
-            return View(existingStudent);
-        }
     }
-}
+} 

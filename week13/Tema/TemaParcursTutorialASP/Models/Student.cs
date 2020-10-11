@@ -12,7 +12,7 @@ namespace TemaParcursTutorialASP.Models
         public string StudentName { get; set; }
         public int Age { get; set; }
 
-        static List<Student> studentList = new List<Student>{
+       public static List<Student> studentList = new List<Student>{
                 new Student() { StudentId = 1, StudentName = "John", Age = 18 } ,
                 new Student() { StudentId = 2, StudentName = "Steve",  Age = 21 } ,
                 new Student() { StudentId = 3, StudentName = "Bill",  Age = 25 } ,
@@ -37,14 +37,6 @@ namespace TemaParcursTutorialASP.Models
             student.StudentId = GetMaxId();
 
             studentList.Add(student);
-        }
-
-
-        public void Delete(Student student)
-        {
-            student.StudentId = GetMaxId();
-
-            studentList.Remove(student);
         }
 
         private int GetMaxId()

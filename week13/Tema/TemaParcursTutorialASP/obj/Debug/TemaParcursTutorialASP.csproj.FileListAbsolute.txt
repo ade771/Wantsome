@@ -77,3 +77,9 @@ D:\Wantsome\Wantsome\week13\Tema\TemaParcursTutorialASP\obj\Debug\TemaParcursTut
 D:\Wantsome\Wantsome\week13\Tema\TemaParcursTutorialASP\obj\Debug\TemaParcursTutorialASP.csproj.CopyComplete
 D:\Wantsome\Wantsome\week13\Tema\TemaParcursTutorialASP\obj\Debug\TemaParcursTutorialASP.dll
 D:\Wantsome\Wantsome\week13\Tema\TemaParcursTutorialASP\obj\Debug\TemaParcursTutorialASP.pdb
+D:\Wantsome\Wantsome\week13\Tema\TemaParcursTutorialASP\bin\System.Net.Http.Formatting.dll
+D:\Wantsome\Wantsome\week13\Tema\TemaParcursTutorialASP\bin\System.Web.Http.dll
+D:\Wantsome\Wantsome\week13\Tema\TemaParcursTutorialASP\bin\System.Web.Http.WebHost.dll
+D:\Wantsome\Wantsome\week13\Tema\TemaParcursTutorialASP\bin\System.Net.Http.Formatting.xml
+D:\Wantsome\Wantsome\week13\Tema\TemaParcursTutorialASP\bin\System.Web.Http.xml
+D:\Wantsome\Wantsome\week13\Tema\TemaParcursTutorialASP\bin\System.Web.Http.WebHost.xml
