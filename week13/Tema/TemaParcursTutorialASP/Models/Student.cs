@@ -38,7 +38,14 @@ namespace TemaParcursTutorialASP.Models
 
             studentList.Add(student);
         }
-
+        public void Delete (int id)
+        {
+            var student = GetById(id);
+            if (student != null)
+            {
+                studentList.Remove(student);
+            }
+        }
         private int GetMaxId()
         {
             return studentList.Count + 1;

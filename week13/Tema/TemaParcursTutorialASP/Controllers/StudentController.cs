@@ -50,20 +50,23 @@ namespace TemaParcursTutorialASP.Controllers
             return View(student);
         }
 
-    
+        [HttpGet]
         public ActionResult Delete(int id)
         {
-            var std = Student.studentList.Where(s => s.StudentId == id).FirstOrDefault();
-
-            return View(std);
+            var model = student.GetById(id);
+            if (model == null)
+            {
+                return View("Not Found");
+            }
+            return View(model);
         }
 
         [HttpPost]
-        public ActionResult Delete(Student std)
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int id, FormCollection form)
         {
-            var student = Student.studentList.Where(s => s.StudentId == std.StudentId).FirstOrDefault();
-            Student.studentList.Remove(student);
-            return View();
+            student.Delete(id);
+            return RedirectToAction("Index");
         }
 
         public ActionResult Edit(int Id)
