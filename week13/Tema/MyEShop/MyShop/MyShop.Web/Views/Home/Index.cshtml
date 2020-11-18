@@ -1,0 +1,46 @@
+﻿@model MyShop.Web.Models.HomeModel
+@{
+    ViewBag.Title = "ACS";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@Html.Partial("Carousel");
+<div class="row">
+    @foreach (var product in Model.products)
+    {
+
+        <div class="col-md-3 gallery-grid">
+
+            <td>
+                <a href="#" data-toggle="tooltip" data-placement="top" title="Buy me!" text-size="60">
+                    <img src="@Url.Content(product.Source)" style="width:250px;height:250px;">
+                </a>
+            </td>
+
+            <div class="quick">
+                <a href="@Url.Action("Buy", "ShoppingCart", new { id = product.Photo_id})">
+                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="galy-info">
+                <p>@product.Name</p>
+                <div class="galry">
+                    <div class="prices">
+                        <h5 class="item_price">€@product.Price</h5>
+                    </div>
+                    <div><p><i>Discount: @product.Discount %</i></p></div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+
+    }
+</div>
+<div class="row">
+
+   
+        <ul>
+            <li>@Html.ActionLink("About", "About", "Home")</li>
+            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+        </ul>
+    }
+</div>

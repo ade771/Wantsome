@@ -1,0 +1,43 @@
+﻿@using MyShop.Data.Models
+@{
+    ViewBag.Title = "ACS";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+
+    <h3>Products List</h3>
+    <table cellpadding="5" cellspacing="5" border="2">
+        <tr>
+            <th>Id</th>
+
+            <th>Photo</th>
+
+            <th>Add to cart</th>
+        </tr>
+        @foreach (ProductPhoto item in ViewBag.productPhoto)
+        {
+            <tr>
+                <td>@item.Photo_id</td>
+
+                <td >
+                    <img src="@Url.Content(item.Source)" alt="@item.Alt" style="width:200px;height:200px;" />
+                </td>
+
+                <td align="center">
+                    <a href="@Url.Action("Buy", "ShoppingCart", new { id = item.Photo_id})">Add to cart</a>
+                </td>
+            </tr>
+        }
+    </table>
+
+</body>
+</html>

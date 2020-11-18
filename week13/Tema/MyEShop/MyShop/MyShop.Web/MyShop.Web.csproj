@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C70D93CC-33BF-4401-A278-696444E97EA8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyShop.Web</RootNamespace>
+    <AssemblyName>MyShop.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44371</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.0.0\lib\net451\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.Mvc5.4.0.0\lib\net451\Autofac.Integration.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.1.1.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.7.1\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\ContainerConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CategoriesController.cs" />
+    <Compile Include="Controllers\ColorsController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\KidsController.cs" />
+    <Compile Include="Controllers\MenController.cs" />
+    <Compile Include="Controllers\PricesController.cs" />
+    <Compile Include="Controllers\ProductPhotoesController.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Controllers\ProductVariantsController.cs" />
+    <Compile Include="Controllers\ShoppingCartController.cs" />
+    <Compile Include="Controllers\SizesController.cs" />
+    <Compile Include="Controllers\SubcategoriesController.cs" />
+    <Compile Include="Controllers\TypesController.cs" />
+    <Compile Include="Controllers\WomenController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HomeModel.cs" />
+    <Compile Include="Models\People.cs" />
+    <Compile Include="Models\CartModel.cs" />
+    <Compile Include="Models\PeopleClothing.cs" />
+    <Compile Include="Models\ProductModel.cs" />
+    <Compile Include="Models\ShoppingCartRemove.cs" />
+    <Compile Include="Models\ShoppingCartModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\1.jpg" />
+    <Content Include="Content\images\2.jpg" />
+    <Content Include="Content\images\3.jpg" />
+    <Content Include="Content\images\Kids\Boys\Accessories\Hats\1_1.jpg" />
+    <Content Include="Content\images\Kids\Boys\Accessories\Hats\1_2.jpg" />
+    <Content Include="Content\images\Kids\Boys\Accessories\Hats\1_3.jpg" />
+    <Content Include="Content\images\Kids\Boys\Accessories\Hats\1_4.jpg" />
+    <Content Include="Content\images\Kids\Boys\Accessories\Hats\1_5.jpg" />
+    <Content Include="Content\images\Kids\Boys\Accessories\Jewellery\1_1.jpg" />
+    <Content Include="Content\images\Kids\Boys\Accessories\Jewellery\1_2.jpg" />
+    <Content Include="Content\images\Kids\Boys\Accessories\Jewellery\1_3.jpg" />
+    <Content Include="Content\images\Kids\Boys\Accessories\Jewellery\1_4.jpg" />
+    <Content Include="Content\images\Kids\Boys\Accessories\Jewellery\1_5.jpg" />
+    <Content Include="Content\images\Kids\Boys\Accessories\Sunglasses\1_1.jpg" />
+    <Content Include="Content\images\Kids\Boys\Accessories\Sunglasses\1_2.jpg" />
+    <Content Include="Content\images\Kids\Boys\Accessories\Sunglasses\1_3.jpg" />
+    <Content Include="Content\images\Kids\Boys\Accessories\Sunglasses\1_4.jpg" />
+    <Content Include="Content\images\Kids\Boys\Accessories\Sunglasses\1_5.jpg" />
+    <Content Include="Content\images\Kids\Boys\Jackets\1_1.jpg" />
+    <Content Include="Content\images\Kids\Boys\Jackets\1_2.jpg" />
+    <Content Include="Content\images\Kids\Boys\Jackets\1_3.jpg" />
+    <Content Include="Content\images\Kids\Boys\Jackets\1_4.jpg" />
+    <Content Include="Content\images\Kids\Boys\Jackets\1_5.jpg" />
+    <Content Include="Content\images\Kids\Boys\Jeans\1_1.jpg" />
+    <Content Include="Content\images\Kids\Boys\Jeans\1_2.jpg" />
+    <Content Include="Content\images\Kids\Boys\Jeans\1_3.jpg" />
+    <Content Include="Content\images\Kids\Boys\Jeans\1_4.jpg" />
+    <Content Include="Content\images\Kids\Boys\Jeans\1_5.jpg" />
+    <Content Include="Content\images\Kids\Boys\Shoes\1_1.jpg" />
+    <Content Include="Content\images\Kids\Boys\Shoes\1_2.jpg" />
+    <Content Include="Content\images\Kids\Boys\Shoes\1_3.jpg" />
+    <Content Include="Content\images\Kids\Boys\Shoes\1_4.jpg" />
+    <Content Include="Content\images\Kids\Boys\Shoes\1_5.jpg" />
+    <Content Include="Content\images\Kids\Boys\Shorts\1_1.jpg" />
+    <Content Include="Content\images\Kids\Boys\Shorts\1_2.jpg" />
+    <Content Include="Content\images\Kids\Boys\Shorts\1_3.jpg" />
+    <Content Include="Content\images\Kids\Boys\Shorts\1_4.jpg" />
+    <Content Include="Content\images\Kids\Boys\Shorts\1_5.jpg" />
+    <Content Include="Content\images\Kids\Boys\TShirts\1_1.jpg" />
+    <Content Include="Content\images\Kids\Boys\TShirts\1_2.jpg" />
+    <Content Include="Content\images\Kids\Boys\TShirts\1_3.jpg" />
+    <Content Include="Content\images\Kids\Boys\TShirts\1_4.jpg" />
+    <Content Include="Content\images\Kids\Boys\TShirts\1_5.jpg" />
+    <Content Include="Content\images\Kids\Boys\TShirts\1_6.jpg" />
+    <Content Include="Content\images\Kids\Gils\Accessories\Hats\1_1.jpg" />
+    <Content Include="Content\images\Kids\Gils\Accessories\Hats\1_2.jpg" />
+    <Content Include="Content\images\Kids\Gils\Accessories\Hats\1_3.jpg" />
+    <Content Include="Content\images\Kids\Gils\Accessories\Hats\1_4.jpg" />
+    <Content Include="Content\images\Kids\Gils\Accessories\Hats\1_5.jpg" />
+    <Content Include="Content\images\Kids\Gils\Accessories\Jewellery\1_1.jpg" />
+    <Content Include="Content\images\Kids\Gils\Accessories\Jewellery\1_2.jpg" />
+    <Content Include="Content\images\Kids\Gils\Accessories\Jewellery\1_3.jpg" />
+    <Content Include="Content\images\Kids\Gils\Accessories\Jewellery\1_5.jpg" />
+    <Content Include="Content\images\Kids\Gils\Accessories\Sunglasses\1_1.jpg" />
+    <Content Include="Content\images\Kids\Gils\Accessories\Sunglasses\1_2.jpg" />
+    <Content Include="Content\images\Kids\Gils\Accessories\Sunglasses\1_3.jpg" />
+    <Content Include="Content\images\Kids\Gils\Accessories\Sunglasses\1_4.jpg" />
+    <Content Include="Content\images\Kids\Gils\Accessories\Sunglasses\1_5.jpg" />
+    <Content Include="Content\images\Kids\Gils\Dresses\1_1.jpg" />
+    <Content Include="Content\images\Kids\Gils\Dresses\1_2.jpg" />
+    <Content Include="Content\images\Kids\Gils\Dresses\1_3.jpg" />
+    <Content Include="Content\images\Kids\Gils\Dresses\1_4.jpg" />
+    <Content Include="Content\images\Kids\Gils\Dresses\1_5.jpg" />
+    <Content Include="Content\images\Kids\Gils\Jackets\1_1.jpg" />
+    <Content Include="Content\images\Kids\Gils\Jackets\1_2.jpg" />
+    <Content Include="Content\images\Kids\Gils\Jackets\1_3.jpg" />
+    <Content Include="Content\images\Kids\Gils\Jackets\1_4.jpg" />
+    <Content Include="Content\images\Kids\Gils\Jackets\1_5.jpg" />
+    <Content Include="Content\images\Kids\Gils\Jeans\1_1.jpg" />
+    <Content Include="Content\images\Kids\Gils\Jeans\1_2.jpg" />
+    <Content Include="Content\images\Kids\Gils\Jeans\1_3.jpg" />
+    <Content Include="Content\images\Kids\Gils\Jeans\1_4.jpg" />
+    <Content Include="Content\images\Kids\Gils\Jeans\1_5.jpg" />
+    <Content Include="Content\images\Kids\Gils\Shoes\1_1.jpg" />
+    <Content Include="Content\images\Kids\Gils\Shoes\1_2.jpg" />
+    <Content Include="Content\images\Kids\Gils\Shoes\1_3.jpg" />
+    <Content Include="Content\images\Kids\Gils\Shoes\1_4.jpg" />
+    <Content Include="Content\images\Kids\Gils\Shoes\1_5.jpg" />
+    <Content Include="Content\images\Kids\Gils\Skirts\1_1.jpg" />
+    <Content Include="Content\images\Kids\Gils\Skirts\1_2.jpg" />
+    <Content Include="Content\images\Kids\Gils\Skirts\1_3.jpg" />
+    <Content Include="Content\images\Kids\Gils\Skirts\1_4.jpg" />
+    <Content Include="Content\images\Kids\Gils\Skirts\1_5.jpg" />
+    <Content Include="Content\images\MEN\Accessories\Belts\1_1.jpg" />
+    <Content Include="Content\images\MEN\Accessories\Belts\2_1.jpg" />
+    <Content Include="Content\images\MEN\Accessories\Hats\1_1.jpg" />
+    <Content Include="Content\images\MEN\Accessories\Hats\2_1.jpg" />
+    <Content Include="Content\images\MEN\Accessories\Hats\3_1.jpg" />
+    <Content Include="Content\images\MEN\Accessories\Jewellery\2_1.jpg" />
+    <Content Include="Content\images\MEN\Accessories\Sunglasses\1_1.jpg" />
+    <Content Include="Content\images\MEN\Accessories\Sunglasses\2_2.jpg" />
+    <Content Include="Content\images\MEN\Accessories\Sunglasses\3_2.jpg" />
+    <Content Include="Content\images\MEN\Backpacks\1_1.jpg" />
+    <Content Include="Content\images\MEN\Backpacks\2_1.jpg" />
+    <Content Include="Content\images\MEN\Blazers\Checked\1_1.jpg" />
+    <Content Include="Content\images\MEN\Blazers\Plain\1_1.jpg" />
+    <Content Include="Content\images\MEN\Blazers\Plain\2_1.jpg" />
+    <Content Include="Content\images\MEN\Blazers\Vests\1_1.jpg" />
+    <Content Include="Content\images\MEN\Jackets\Bomber\1_1.jpg" />
+    <Content Include="Content\images\MEN\Jackets\Denim\1_1.jpg" />
+    <Content Include="Content\images\MEN\Jackets\Leather\1_1.jpg" />
+    <Content Include="Content\images\MEN\Jeans\Regular_fit\1_1.jpg" />
+    <Content Include="Content\images\MEN\Jeans\Slim_fit\1_1.jpg" />
+    <Content Include="Content\images\MEN\Jeans\Slim_fit\3_1.jpg" />
+    <Content Include="Content\images\MEN\Shirts\Denim\1_1.jpg" />
+    <Content Include="Content\images\MEN\Shirts\Denim\2_1.jpg" />
+    <Content Include="Content\images\MEN\Shirts\Plain\1_1.jpg" />
+    <Content Include="Content\images\MEN\Shoes\Casual\1_1.jpg" />
+    <Content Include="Content\images\MEN\Shoes\Leather\1_1.jpg" />
+    <Content Include="Content\images\MEN\Shoes\Moccasins\1_1.jpg" />
+    <Content Include="Content\images\MEN\Shoes\Moccasins\2_1.jpg" />
+    <Content Include="Content\images\MEN\Shoes\Sneakers\1_1.jpg" />
+    <Content Include="Content\images\MEN\Shoes\Sneakers\2_1.jpg" />
+    <Content Include="Content\images\MEN\Shoes\Sneakers\3_1.jpg" />
+    <Content Include="Content\images\MEN\TShirts\Plain\1_1.jpg" />
+    <Content Include="Content\images\MEN\TShirts\Plain\2_1.jpg" />
+    <Content Include="Content\images\MEN\TShirts\Plain\3_1.jpg" />
+    <Content Include="Content\images\MEN\TShirts\Printed\1_1.jpg" />
+    <Content Include="Content\images\MEN\TShirts\Printed\3_1.jpg" />
+    <Content Include="Content\images\MEN\TShirts\Sleeveless\2_1.jpg" />
+    <Content Include="Content\images\MEN\TShirts\Striped\1_1.jpg" />
+    <Content Include="Content\images\MEN\Underwear\3_1.jpg" />
+    <Content Include="Content\images\MEN\Underwear\4_1.jpg" />
+    <Content Include="Content\images\WOMEN\Accessories\Eyewear\1_2.jpg" />
+    <Content Include="Content\images\WOMEN\Accessories\Eyewear\2_3.jpg" />
+    <Content Include="Content\images\WOMEN\Accessories\Hats\1_1.jpg" />
+    <Content Include="Content\images\WOMEN\Accessories\Hats\2_2.jpg" />
+    <Content Include="Content\images\WOMEN\Accessories\Jewellery\1_1.jpg" />
+    <Content Include="Content\images\WOMEN\Accessories\Jewellery\2_1.jpg" />
+    <Content Include="Content\images\WOMEN\Accessories\Jewellery\3_1.jpg" />
+    <Content Include="Content\images\WOMEN\Bags\Large_bags\1_1.jpg" />
+    <Content Include="Content\images\WOMEN\Bags\Large_bags\2_1.jpg" />
+    <Content Include="Content\images\WOMEN\Bags\Large_bags\3_1.jpg" />
+    <Content Include="Content\images\WOMEN\Bags\Mini_bags\1_1.jpg" />
+    <Content Include="Content\images\WOMEN\Bags\Mini_bags\2_1.jpg" />
+    <Content Include="Content\images\WOMEN\Bags\Mini_bags\3_1.jpg" />
+    <Content Include="Content\images\WOMEN\Body\Lace\1_1.jpg" />
+    <Content Include="Content\images\WOMEN\Body\Plain\2_1.jpg" />
+    <Content Include="Content\images\WOMEN\Dresses\Maxi\1_1.jpg" />
+    <Content Include="Content\images\WOMEN\Dresses\Midi\1_3.jpg" />
+    <Content Include="Content\images\WOMEN\Dresses\Mini\2_1.jpg" />
+    <Content Include="Content\images\WOMEN\Jeans\1_1.jpg" />
+    <Content Include="Content\images\WOMEN\Jeans\2_1.jpg" />
+    <Content Include="Content\images\WOMEN\Jeans\3_1.jpg" />
+    <Content Include="Content\images\WOMEN\Jeans\4_1.jpg" />
+    <Content Include="Content\images\WOMEN\Jeans\5_1.jpg" />
+    <Content Include="Content\images\WOMEN\Jumpsuits\3_1.jpg" />
+    <Content Include="Content\images\WOMEN\Shoes\Flats\1_1.jpg" />
+    <Content Include="Content\images\WOMEN\Shoes\Flats\2_1.jpg" />
+    <Content Include="Content\images\WOMEN\Shoes\High_heels\2_1.jpg" />
+    <Content Include="Content\images\WOMEN\Shoes\Sneakers\1_1.jpg" />
+    <Content Include="Content\images\WOMEN\Shoes\Summer_shoes\1_1.jpg" />
+    <Content Include="Content\images\WOMEN\Shoes\Summer_shoes\2_1.jpg" />
+    <Content Include="Content\images\WOMEN\Skirts\Midi\1_1.jpg" />
+    <Content Include="Content\images\WOMEN\Skirts\Midi\2_1.jpg" />
+    <Content Include="Content\images\WOMEN\Skirts\Mini\1_1.jpg" />
+    <Content Include="Content\images\WOMEN\Skirts\Mini\2_1.jpg" />
+    <Content Include="Content\images\WOMEN\Skirts\Mini\3_1.jpg" />
+    <Content Include="Content\images\WOMEN\Swimwear\2_1.jpg" />
+    <Content Include="Content\images\WOMEN\TShirts\Basic\1_1.jpg" />
+    <Content Include="Content\images\WOMEN\TShirts\Basic\2_1.jpg" />
+    <Content Include="Content\images\WOMEN\TShirts\Printed\2_1.jpg" />
+    <Content Include="Content\images\WOMEN\TShirts\Sleeveless\1_1.jpg" />
+    <Content Include="Content\images\WOMEN\TShirts\Sleeveless\3_1.jpg" />
+    <Content Include="Content\Site.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Categories\Create.cshtml" />
+    <Content Include="Views\Categories\Delete.cshtml" />
+    <Content Include="Views\Categories\Details.cshtml" />
+    <Content Include="Views\Categories\Edit.cshtml" />
+    <Content Include="Views\Categories\Index.cshtml" />
+    <Content Include="Views\Colors\Create.cshtml" />
+    <Content Include="Views\Colors\Delete.cshtml" />
+    <Content Include="Views\Colors\Details.cshtml" />
+    <Content Include="Views\Colors\Edit.cshtml" />
+    <Content Include="Views\Colors\Index.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Prices\Create.cshtml" />
+    <Content Include="Views\Prices\Delete.cshtml" />
+    <Content Include="Views\Prices\Details.cshtml" />
+    <Content Include="Views\Prices\Edit.cshtml" />
+    <Content Include="Views\Prices\Index.cshtml" />
+    <Content Include="Views\ProductPhotoes\Create.cshtml" />
+    <Content Include="Views\ProductPhotoes\Delete.cshtml" />
+    <Content Include="Views\ProductPhotoes\Details.cshtml" />
+    <Content Include="Views\ProductPhotoes\Edit.cshtml" />
+    <Content Include="Views\ProductPhotoes\Index.cshtml" />
+    <Content Include="Views\Products\Create.cshtml" />
+    <Content Include="Views\Products\Delete.cshtml" />
+    <Content Include="Views\Products\Details.cshtml" />
+    <Content Include="Views\Products\Edit.cshtml" />
+    <Content Include="Views\Products\Index.cshtml" />
+    <Content Include="Views\ProductVariants\Create.cshtml" />
+    <Content Include="Views\ProductVariants\Delete.cshtml" />
+    <Content Include="Views\ProductVariants\Details.cshtml" />
+    <Content Include="Views\ProductVariants\Edit.cshtml" />
+    <Content Include="Views\ProductVariants\Index.cshtml" />
+    <Content Include="Views\ShoppingCart\Index.cshtml" />
+    <Content Include="Views\Sizes\Create.cshtml" />
+    <Content Include="Views\Sizes\Delete.cshtml" />
+    <Content Include="Views\Sizes\Details.cshtml" />
+    <Content Include="Views\Sizes\Edit.cshtml" />
+    <Content Include="Views\Sizes\Index.cshtml" />
+    <Content Include="Views\Subcategories\Create.cshtml" />
+    <Content Include="Views\Subcategories\Delete.cshtml" />
+    <Content Include="Views\Subcategories\Details.cshtml" />
+    <Content Include="Views\Subcategories\Edit.cshtml" />
+    <Content Include="Views\Subcategories\Index.cshtml" />
+    <Content Include="Views\Types\Create.cshtml" />
+    <Content Include="Views\Types\Delete.cshtml" />
+    <Content Include="Views\Types\Details.cshtml" />
+    <Content Include="Views\Types\Edit.cshtml" />
+    <Content Include="Views\Types\Index.cshtml" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\Carousel.cshtml" />
+    <Content Include="Views\Shared\MenList.cshtml" />
+    <Content Include="Views\Men\Accessories.cshtml" />
+    <Content Include="Views\Men\Backpacks.cshtml" />
+    <Content Include="Views\Men\Blazers.cshtml" />
+    <Content Include="Views\Men\Jackets.cshtml" />
+    <Content Include="Views\Men\Jeans.cshtml" />
+    <Content Include="Views\Men\Shirts.cshtml" />
+    <Content Include="Views\Men\Shoes.cshtml" />
+    <Content Include="Views\Men\TShirts.cshtml" />
+    <Content Include="Views\Men\Underwear.cshtml" />
+    <Content Include="Views\Women\Accessories.cshtml" />
+    <Content Include="Views\Women\Bags.cshtml" />
+    <Content Include="Views\Women\Body.cshtml" />
+    <Content Include="Views\Women\Dresses.cshtml" />
+    <Content Include="Views\Women\Jeans.cshtml" />
+    <Content Include="Views\Women\Jumpsuits.cshtml" />
+    <Content Include="Views\Women\Shoes.cshtml" />
+    <Content Include="Views\Women\Skirts.cshtml" />
+    <Content Include="Views\Women\Swimwear.cshtml" />
+    <Content Include="Views\Women\TShirts.cshtml" />
+    <Content Include="Views\Shared\WomenList.cshtml" />
+    <Content Include="Views\Kids\Accessories.cshtml" />
+    <Content Include="Views\Kids\Jackets.cshtml" />
+    <Content Include="Views\Kids\Jeans.cshtml" />
+    <Content Include="Views\Kids\TShirts.cshtml" />
+    <Content Include="Views\Kids\Shoes.cshtml" />
+    <Content Include="Views\Kids\Skirts.cshtml" />
+    <Content Include="Views\Kids\Dresses.cshtml" />
+    <Content Include="Views\Kids\Shorts.cshtml" />
+    <Content Include="Views\Shared\KidsList.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyShop.Data\MyShop.Data.csproj">
+      <Project>{857FC239-15DB-4B21-9121-08334E8121C6}</Project>
+      <Name>MyShop.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54785</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44371/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

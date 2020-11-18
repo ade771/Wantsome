@@ -1,0 +1,18 @@
+﻿@model MyShop.Web.Models.ShoppingCartModel
+
+   @if (Model.CartItems.Count> 0)
+   {
+       <li>
+           <span class="glyphicon glyphicon-shopping-cart"></span>
+           <span id="cart-status">
+               @Model.CartItems.Count
+               @Model.CartTotal
+           </span>
+       </li>
+   }
+
+    <br> <a href="@Url.Action("Index", "ProductPhotoes")">Continue Shopping</a>
+
+
+
+

@@ -1,0 +1,12 @@
+D:\MyEShop\MyShop\MyShop.Data\bin\Debug\MyShop.Data.dll.config
+D:\MyEShop\MyShop\MyShop.Data\bin\Debug\MyShop.Data.dll
+D:\MyEShop\MyShop\MyShop.Data\bin\Debug\MyShop.Data.pdb
+D:\MyEShop\MyShop\MyShop.Data\bin\Debug\EntityFramework.dll
+D:\MyEShop\MyShop\MyShop.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\MyEShop\MyShop\MyShop.Data\bin\Debug\EntityFramework.xml
+D:\MyEShop\MyShop\MyShop.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\MyEShop\MyShop\MyShop.Data\obj\Debug\MyShop.Data.csproj.CoreCompileInputs.cache
+D:\MyEShop\MyShop\MyShop.Data\obj\Debug\MyShop.Data.csproj.CopyComplete
+D:\MyEShop\MyShop\MyShop.Data\obj\Debug\MyShop.Data.dll
+D:\MyEShop\MyShop\MyShop.Data\obj\Debug\MyShop.Data.pdb
+D:\MyEShop\MyShop\MyShop.Data\obj\Debug\MyShop.Data.csprojAssemblyReference.cache

@@ -1,0 +1,21 @@
+﻿@model IEnumerable<MyShop.Data.Models.Subcategory>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<table class="table">
+    <tbody>
+        <ul class="dropdown-menu">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                  
+                </tr>
+            }
+        </ul>
+    </tbody>
+</table>
+
